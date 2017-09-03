@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Slider</title>
+    <link rel="stylesheet" href="./source/css/main.css">
+    <script src="./source/js/app.js" defer type="text/javascript"></script>
+</head>
+<body>
+<div class="wrapper">
+    <p class="title">Demo</p>
+    <div class="news" draggable="false">
+        <div id="news-prev" class="news__wrap-arrow">
+            <button class="news__arrow"></button>
+        </div>
+        <div id="news-next" class="news__wrap-arrow">
+            <button class="news__arrow reverse"></button>
+        </div>
+    </div>
+</div>
+<div class="full_news__wrapper">
+    <div class="full_news">
+        <section class="banner">
+            <div class="close"><span>+</span></div>
+            <img class="banner-img" src="http://lorempixel.com/1400/500"/>
+            <div class="inner">
+                <h1 id="title">item.title</h1>
+            </div>
+        </section>
+        <main class="full_news__main">
+            <div class="inner">
+                <header>
+                    <h2 id="subtitle"> date_artical | item.title </h2>
+                </header>
+                <div class="clearfix" id="content">
+                    image()
+                    item.content
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+</html>
